@@ -1,33 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 @charset "UTF-8";
 * {
-    /* height: 100%;
-    */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'New Tegomin', serif;
+}
+
+main {
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: #3c4666d3;
+    width: 700px;
+    background-color: white;
 }
 
 body {
-    background-image: linear-gradient(to right, #D9D9D9, #A1A5A6, #353D40);
+    background-image: linear-gradient(to right, #ece06c85, #e9ebf1d3);
+}
+
+h1 {
+    color: #474f57a8;
+    text-shadow: #2b30358a;
+    text-align: center;
+}
+
+h2 {
+    color: #BF8756;
+    text-align: center;
 }
 
 p {
     text-align: justify;
-}
-
-main {
-    background-color: white;
-    width: 600px;
-    padding: 10px;
-    margin: auto;
-    border-radius: 6px;
-    box-shadow: 5px 5px 15px #13172479
-}
-
-h1 {
-    color: #242c44;
-    text-align: center;
-    text-shadow: 1px 1px 2px #242c44
-}
-
-h2 {
-    color: #354bad
 }
